@@ -180,3 +180,28 @@ body {
   color: #ddd;
   text-decoration: none;
 }
+/*footer mobile tweaks*/
+
+.footer-mobile ul {
+  list-style-type: none;
+}
+.footer-mobile li {
+  display: inline-block;
+  padding-right: 30px;
+
+}
+.footer-mobile {
+  bottom: 0;
+  background-color: #111;
+  color: #fff;
+  font-size: 75%;
+}
+.footer-mobile a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-mobile a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+

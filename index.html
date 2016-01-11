@@ -1,3 +1,5 @@
+<?php while ( have_posts() ) : the_post() ?>
+<?php endwhile; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>blog template</title>
+	<title>blog template - index</title>
 
 
 
@@ -45,13 +47,23 @@
 
 			<div class="col-md-12 col-xs-12 content post">
 				<h2>Post title that is really long</h2>
-				<h4>author</h4>
-
-				<p>
-					<img src="assets/images/tixblogemailmarketing.jpg" align="left" border="0" width="15%"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque semper bibendum. Etiam nec congue nunc. Aenean venenatis dictum dignissim. Proin sed dolor porttitor, rhoncus lorem non,
+					<h4>author</h4>
+				<div class="row">
+					<div class="col-md-2 hidden-xs">
+						
+					<img src="/assets/images/TixblogEmailMarketing.jpg" border="0">
+					</div>
+					<div class="col-md-10 text-left">
+							<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque semper bibendum. Etiam nec congue nunc. Aenean venenatis dictum dignissim. Proin sed dolor porttitor, rhoncus lorem non,
 					<A href="#">lobortis nisl</A>. Fusce iaculis, turpis vitae ultricies mollis, est leo tristique tellus, nec sagittis eros velit quis nunc. Sed gravida, justo eget ornare tincidunt, libero tellus aliquam risus, eu...[read more]
 				</p>
 
+					</div>
+				</div>
+				
+
+			
 
 
 

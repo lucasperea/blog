@@ -132,6 +132,7 @@ body {
 
 .post h2 {
   font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .post p {
@@ -251,13 +252,12 @@ body {
   background-color: #262626;
   color: #f1f1f1;
   font-family: 'Open Sans', sans-serif;
-  vertical-align:bottom;
+  vertical-align: bottom;
 }
 
 .cta p {
-  margin-top:2.5%;
+  margin-top: 2.5%;
   font-size: 85%;
-  
 }
 
 .cta h3 {
@@ -299,4 +299,23 @@ body {
 
 .header-single h1 {
   color: #F0BC00;
+}
+
+
+/*post style*/
+
+.post-entry {
+  color: #000;
+  font-size: 12px;
+  background-color:#fff;
+}
+
+.post-entry h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.post-entry h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }

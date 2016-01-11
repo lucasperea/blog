@@ -157,7 +157,7 @@ body {
   color: #fff;
 }
 
-/*footer*/
+/*footer
 .footer ul {
   list-style-type: none;
 }
@@ -179,7 +179,9 @@ body {
 .footer a:hover {
   color: #ddd;
   text-decoration: none;
-}
+}*/
+
+
 /*footer mobile tweaks*/
 
 .footer-mobile ul {
@@ -187,7 +189,7 @@ body {
 }
 .footer-mobile li {
   display: inline-block;
-  padding-right: 30px;
+  padding-left: 15px;
 
 }
 .footer-mobile {
@@ -205,3 +207,5 @@ body {
   text-decoration: none;
 }
 
+.footer address
+{margin-bottom: 0;}

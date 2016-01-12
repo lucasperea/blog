@@ -18,7 +18,7 @@
  	<?php endif; ?>
 
 				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-					<h4><?php the_author_posts_link(); ?</h4>
+					<h4><?php the_author(); ?></h4>
 				<div class="row">
 					<div class="col-md-2 hidden-xs">
 						
@@ -61,7 +61,7 @@
 		</div>
 		<div class="col-md-4 hidden-xs">
 			<h3>tags</h3>
-			<ul><li><?php dynamic_sidebar( 'right-sidebar' ); ?></li></ul>
+			<ul><li><?php dynamic_sidebar( 'right-sidebar' ); ?>git </li></ul>
 		</div>
 	</div>
 	</div>

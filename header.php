@@ -22,20 +22,19 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- bootstrap-->
-    <link href="<?php bloginfo('template_directory') ?>/assets/css/bootstrap.min.css">
-    <link href="<?php bloginfo('template_directory') ?>/assets/css/bootstrap-theme.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
     <!--font awesome-->
-    <link href="<?php bloginfo('template_directory') ?>/assets/css/font-awesome.css">
-    <link href="<?php bloginfo('template_directory') ?>/assets/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
 <link href="<?php bloginfo('template_directory') ?>/assets/settings.css" media="screen" rel="stylesheet">
     <!--custom css-->
-    <link href="<?php bloginfo('template_directory') ?>/assets/style.css">
-</head>
+<?php bloginfo('stylesheet_url'); ?>
 </head>
 
 <body>
 
-<div class="wrapper">
+
 
 
 	<div class="container header ">
